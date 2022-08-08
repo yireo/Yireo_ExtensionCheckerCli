@@ -1,0 +1,29 @@
+{
+    "name": "yireo/magento2-extensionchecker-cli",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "homepage": "https://github.com/yireo/Yireo_ExtensionCheckerCli",
+    "description": "Add-on to Yireo_ExtensionChecker to run standalone",
+    "keywords": [
+        "composer-installer",
+        "magento"
+    ],
+    "authors": [
+        {
+            "name": "Jisse Reitsma (Yireo)",
+            "email": "jisse@yireo.com"
+        }
+    ],
+    "require": {
+        "yireo/magento2-extensionchecker": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yireo\\ExtensionCheckerCli\\": ""
+        },
+        "files": [
+            "cli_commands.php"
+        ]
+    }
+}
