@@ -2,7 +2,7 @@
     "name": "yireo/magento2-extensionchecker-cli",
     "license": "OSL-3.0",
     "type": "magento2-module",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "homepage": "https://github.com/yireo/Yireo_ExtensionCheckerCli",
     "description": "Add-on to Yireo_ExtensionChecker to run standalone",
     "keywords": [
